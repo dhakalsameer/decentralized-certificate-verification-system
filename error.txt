@@ -1,0 +1,13 @@
+Error Identification 
+     - No visibility specified
+     - Data location must be "memory" "calldata" for return parameter in function
+     - Different number of arguments in return statement than in returns declaration.
+     - Function state mutability can be restricted to pure
+     - Function state mutability can be restricted to view
+
+Solving the error:
+   - specifyting the scope visibility 
+   - Using the memory keyword for return parameter in function
+   - using the returns keyword
+   - using the keyword pure to not change the state
+   - using the view for read only data
