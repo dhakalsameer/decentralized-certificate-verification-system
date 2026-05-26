@@ -4,6 +4,7 @@ Error Identification
      - Different number of arguments in return statement than in returns declaration.
      - Function state mutability can be restricted to pure
      - Function state mutability can be restricted to view
+     - Source file does not specify required compiler version!
 
 Solving the error:
    - specifyting the scope visibility 
@@ -11,3 +12,4 @@ Solving the error:
    - using the returns keyword
    - using the keyword pure to not change the state
    - using the view for read only data
+   - specifying the compiler version
